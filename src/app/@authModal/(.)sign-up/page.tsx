@@ -1,6 +1,5 @@
 import CloseModal from "@/components/CloseModal";
-import SignIn from "@/components/SignIn";
-
+import SignUp from "@/components/SignUp";
 const page = () => {
   return (
     <div className="fixed inset-0 bg-zinc-900/20 z-10">
@@ -9,7 +8,7 @@ const page = () => {
           <div className="absolute top-4 right-4">
             <CloseModal />
           </div>
-          <SignIn />
+          <SignUp />
         </div>
       </div>
     </div>
